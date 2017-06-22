@@ -1,0 +1,110 @@
+			body {
+				background-color: white;
+				font-family: Arial, sans-serif;
+				font-size: 20px;
+			}
+
+			h1{
+				color: black;
+				font-size: 2.0em;
+				margin: 20px 0 0 200px;
+			}
+			h3{
+				color: black;
+				font-size: 1.5em;
+				margin: 0 0 20px 200px;
+			}
+
+			p {
+				margin-left: 200px;
+				font-size: 11pt;
+				color: black;
+			}
+			#main{
+				width: 1000px;
+				display: block;
+				margin: 0 auto;
+			}
+			div.y2016 {
+				color: #ffb614;
+				display: inline;
+			}
+			div.y2015 {
+				color: #5281f9;
+				display: inline;
+			}
+
+			svg {
+				background-color: none;
+				display: block;
+				margin: 0 auto;
+			}
+
+
+			circle {
+				stroke-width: 1;
+			}
+
+			circle.y2015 {
+				fill: #5281f9;
+				opacity: .6;
+			}
+
+			circle.y2016 {
+				fill: #ffb614;
+				opacity: .6;
+			}
+
+			circle:hover {
+				opacity: 1;
+			}
+
+			line.grid {
+				stroke: #7f7f7f;
+				opacity: .6;
+			}
+
+			line.between {
+				stroke: black;
+			}
+
+			.axis path,
+			.axis line {
+				fill: none;
+				stroke: white;
+				shape-rendering: crispEdges;
+				opacity: .1;
+				stroke-width:1px;
+			}
+
+			/*.axis {
+				stroke: solid 1px #000;
+			}*/
+
+			/*y axis text*/
+			.axis text {
+				font-family: sans-serif;
+				font-size: 12px;
+				font-weight: bold;
+			}
+
+
+			.xlabel {
+				font-family: sans-serif;
+				font-size: 11px;
+				color: black;
+				font-weight: bold;
+			}
+
+			.xaxis {
+				fill: none;
+				stroke: black;
+				stroke-width:1px;
+				shape-rendering: crispEdges;
+			}
+
+			.xaxis text {
+				font-family: sans-serif;
+				font-size: 11px;
+				color:black;
+			}
